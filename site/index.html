@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Module 3 Assignment</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="module3-styles.css">
+  </head>
+
+<body>
+	<header> <!-- The NAVBAR class is what creates the navigation bar. From
+		there, there are many ways to customize it.  
+		-EXPAND-SM means it will collaps to a toggler button when the screen hits the small screen size. MD would do so at medium size, and LG for large screens. Telling the navbar to be DARK or LIGHT is for the wording and button outline. The BG is the color of the bar itself. -->
+		<nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+		  <div class="container">
+		  	<a class="navbar-brand" href="#">Food, LLC</a>
+
+		  	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+		    	<span class="navbar-toggler-icon"></span>
+		  	</button>
+		  </div>
+
+		  <div id="navbarNavAltMarkup" class="collapse navbar-collapse">
+		  	<ul id="nav-list" class="d-block d-sm-none"><!-- this class means
+		  		that the following list items will only be seen on xs devices. However, in css I have the toggler button set to show up on xs devices which then consumes the list items.-->
+		  		<li>
+		  			<a href="#chicken">
+		  				<span>Chicken</span></a>
+		  			</li>
+		  		<li>
+		  			<a href="#beef">
+		  				<span>Beef</span></a>
+		  			</li>
+		  		<li>
+		  			<a href="#sushi">
+		  				<span>Sushi</span></a>
+		  			</li>
+
+		  		</ul>
+		  	</div>
+		  
+		</nav>
+	</header>
+
+  <h1 id="top" class="text-center">Our Menu</h1>
+
+  <div class="container-fluid">
+  	<div class="row">
+  		<div class="col-md-*">
+		  	<div id="chicken">
+		  		<h3>Chicken</h3>
+		  		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur fringilla auctor blandit. Praesent quis posuere eros. Nullam pretium vel leo non aliquet. Vestibulum tincidunt enim ut ullamcorper tempor. Maecenas sed lorem quis nisi ultricies egestas quis id eros. Vestibulum eget purus maximus, auctor elit sit amet, hendrerit nisi. Mauris quis egestas turpis. Sed in gravida libero. Ut vitae orci odio. Fusce quis porta neque, sit amet viverra magna. Donec viverra risus mi, gravida feugiat est maximus et. Nam maximus leo id varius consectetur. Fusce id finibus nulla. Nunc eget risus porta, dictum ex vitae, auctor urna.</p>
+		  		<a href="#top"><p>Back to Top</p></a>
+		  	</div>
+		  	<div id="beef">
+		  		<h3>Beef</h3>
+		  		<p>Donec pulvinar tortor vitae metus vestibulum, sit amet vehicula mi efficitur. In dapibus, nisl nec efficitur egestas, nulla dui cursus turpis, eget mollis massa diam quis risus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Praesent nibh augue, ornare at fermentum a, gravida vitae augue. In placerat lectus sed congue venenatis. Mauris vehicula dolor libero, id commodo leo suscipit in. Duis eget scelerisque tortor. Sed maximus magna et vehicula sagittis. Mauris ac ipsum lorem. Vivamus sed eleifend nulla. Integer lacinia sapien et lorem rutrum, nec malesuada ligula interdum.</p>
+		  		<a href="#top"><p>Back to Top</p></a>
+		  	</div>
+		  	<div id="sushi">
+		  		<h3>Sushi</h3>
+		  		<p>Mauris malesuada orci diam, sit amet semper odio tincidunt vel. Aliquam condimentum, magna iaculis mollis imperdiet, eros nisl lacinia orci, ut efficitur odio diam sit amet turpis. Vestibulum nec dolor massa. Duis luctus vehicula neque quis convallis. Mauris ut odio lacinia, auctor quam id, ornare magna. Nunc ex ante, lacinia id ex sit amet, blandit cursus massa. Nulla sollicitudin feugiat mi, at auctor dolor suscipit eget. Mauris vel quam sit amet sapien sagittis varius. In sodales interdum est, non placerat nisi tempor a. Duis id tempor quam.</p>
+		  		<a href="#top"><p>Back to Top</p></a>
+		  	</div>
+	  	</div>
+  	</div>
+
+
+
+
+  <!-- jQuery (Bootstrap JS plugins depend on it) -->
+	 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</body>
+</html>
