@@ -1,0 +1,93 @@
+/**** Navigation Bar ****/
+@media (max-width: 575.98px) {
+  .navbar-expand-sm>.container {
+      padding-right: 15px; 
+      padding-left: 15px; 
+  }
+}
+
+.navbar {
+  padding: 10px 0px 10px 0px;
+}
+
+.navbar-brand { /**** Food, LLC ****/
+  font-size: 1.5em;
+
+}
+
+body {
+  background-color: #909090;
+}
+
+h1 { /**** Our Menu ***/
+  font-size: 1.4em;
+  margin-top: 20px;
+  color: white;
+}
+
+/**** the invisible box holding everything on the page ****/
+.container-fluid {
+  height: 2000px;
+}
+
+.container-fluid > div {
+  padding: 15px;
+}
+
+h3 { /**** Menu item names ****/
+  font-size: 1.1em;
+  text-align: center;
+}
+
+/**** Menu Boxes ****/
+#chicken, #beef, #sushi {
+  margin-bottom: 20px;
+  padding: 15px;
+  border: 1px solid black;
+  color: white;
+}
+
+#chicken a, #beef a, #sushi a { /* back to top */
+  color: white;
+  font-size: .9em;
+}
+
+#chicken {
+  background-color: #20732e;
+}
+
+#beef {
+  background-color: #12401a;
+}
+
+#sushi {
+  background-color: #20732e;
+}
+
+/**** Toggle List ****/
+ul {
+  padding-inline-start: 0px;
+}
+
+#nav-list ul {
+  padding: 0px;
+}
+
+#nav-list li {
+  margin-top: 5px;
+  background-color: #999;
+  text-align: center;
+  list-style-type: none;
+}
+
+#nav-list a {
+  color: white;
+}
+
+#nav-list a:hover {
+  text-decoration: none;
+  background: #12401a;
+}
+
+
+
